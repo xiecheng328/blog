@@ -1,0 +1,77 @@
+/* css 重置开始 */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0;
+}
+/* css 重置结束 */
+
+/* 定义字体 */
+/*
+@font-face {*/
+    /*font-family: 'diyfont';*/
+    /*src: url('diyfont.eot'); !* IE9+ *!*/
+    /*src: url('diyfont.eot?#iefix') format('embedded-opentype'), !* IE6-IE8 *!*/
+    /*url('diyfont.woff') format('woff'), !* chrome、firefox *!*/
+    /*url('diyfont.ttf') format('truetype'), !* chrome、firefox、opera、Safari, Android, iOS 4.2+*!*/
+    /*url('diyfont.svg#fontname') format('svg'); !* iOS 4.1- *!*/
+/*}*/
+@font-face {
+    font-family: 'Nunito-Bold';
+    src: url('/fonts/Nunito-Bold.ttf') format('truetype');
+}
+
+
+/* 定义字体 */
+
+/* header开始  */
+#header{
+    height: 520px;
+    /*background: #deecdf;*/
+    background: #ff0000 url(/images/p1.png) no-repeat center;
+    position: relative;
+}
+#header h1{
+    width: 200px;
+    text-align: center;
+    font-family: "Nunito-Bold";
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    bottom: 100px;
+}
+/* header结束  */
+body{
+    height: 2000px;
+}
+#top{
+    width: 40px;
+    height: 26px;
+    background: #f00 url(/images/to-top2.png) no-repeat center;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
