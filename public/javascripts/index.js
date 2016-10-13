@@ -6,9 +6,9 @@ $(function(){
     $(window).on('scroll', function(){
         var scrollTop = $("body").scrollTop();
         if(scrollTop >= 200){
-            $top.show();
+            $top.fadeIn('slow');
         }else{
-            $top.hide();
+            $top.fadeOut('slow');
         }
     });
 
@@ -21,6 +21,18 @@ $(function(){
             $("body").scrollTop(scrollTop - 20);
         }, 100);
     });
+
+    var $css = $("#progress .css");
+    var cssWidth = $css.width();
+    setInterval(function(){
+        var w = $css.width();
+        if(w >= $css.parent().width()){
+            // clearInterval(timer);
+            $css.width(cssWidth);
+        }else{
+            $css.width(w + w * 0.05);
+        }
+    }, 200);
 
 
 });

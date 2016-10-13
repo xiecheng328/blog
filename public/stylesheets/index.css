@@ -35,8 +35,7 @@ img{
 /* header开始  */
 #header{
     height: 520px;
-    /*background: #deecdf;*/
-    background: #ff0000 url(/images/p1.png) no-repeat center;
+    background: #deecdf url(/images/p1.png) no-repeat center;
     position: relative;
 }
 #header h1{
@@ -62,6 +61,96 @@ body{
     cursor: pointer;
     display: none;
 }
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#experience{
+    height: 500px;
+}
+#experience .wrapper{
+    height: 500px;
+    /*background: #cccccc;*/
+}
+#study, #skills{
+    width: 585px;
+    height: 500px;
+}
+#study{
+    float: left;
+    margin-top: 30px;
+}
+#experience .title{
+    font-family: "Nunito-Bold";
+    font-size: 40px;
+}
+#study ul{
+    width: 585px;
+    height: 470px;
+    margin-top: 20px;
+}
+#study li{
+    width: 565px;
+    height: 50px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+#study .conent{
+    float: left;
+}
+#study .date{
+    float: right;
+    color: #ddd;
+}
+#skills{
+    float: right;
+    margin-top: 30px;
+}
+#skills .progress{
+    width: 100%;
+    height: 30px;
+    /*background: rgb(245, 245, 245);*/
+    background: #dddddd;
+    border-radius: 5px;
+}
+
+#progress h3{
+    margin-top: 10px;
+}
+#progress div{
+     margin-top: 10px;
+}
+#progress .html{
+    width: 40%;
+    height: 100%;
+    background: #deecdf;
+    border-radius: 5px;
+
+}
+#progress .css{
+    width: 20%;
+    height: 100%;
+    background: #ACB5B8;
+    border-radius: 5px;
+
+}
+#progress .js{
+    width: 60%;
+    height: 100%;
+    background: #78B3AE;
+    border-radius: 5px;
+
+}
+#progress .php{
+    width: 80%;
+    height: 100%;
+    background: #8C9D82;
+    border-radius: 5px;
+
+}
+
+
 
 
 
