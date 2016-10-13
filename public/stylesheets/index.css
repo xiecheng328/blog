@@ -47,10 +47,6 @@ img{
     margin-left: -100px;
     bottom: 100px;
 }
-/* header结束  */
-body{
-    height: 2000px;
-}
 #top{
     width: 40px;
     height: 26px;
@@ -67,15 +63,15 @@ body{
 }
 
 #experience{
-    height: 500px;
+    height: 400px;
 }
 #experience .wrapper{
-    height: 500px;
+    height: 400px;
     /*background: #cccccc;*/
 }
 #study, #skills{
     width: 585px;
-    height: 500px;
+    height: 400px;
 }
 #study{
     float: left;
@@ -149,7 +145,94 @@ body{
     border-radius: 5px;
 
 }
+/* header结束  */
 
+/* project开始  */
+#project{
+    height: 260px;
+}
+#project .wrapper{
+    height: 260px;
+}
+#design, #support, #solution{
+    width: 390px;
+    height: 260px;
+    float: left;
+    text-align: center;
+}
+#project .icon{
+    width: 64px;
+    height: 64px;
+    margin-left: 163px;
+    background-repeat: no-repeat;
+    background-image: url(/images/img-sprite.png);
+}
+#project .icon1{
+    background-position: 0 0;
+}
+#project .icon2{
+    background-position: -64px 0;
+}
+#project .icon3{
+    background-position: -128px 0;
+}
+#project h2{
+    margin-top: 20px;
+}
+#project .content{
+    margin-top: 20px;
+    line-height: 30px;
+    color: rgb(156, 166, 157);
+}
+/* project结束  */
+
+/* contact开始  */
+#contact{
+    height: 450px;
+    background: #deecdf;
+}
+#contact .wrapper{
+    height: 450px;
+}
+#contact h2{
+    font-family: "Nunito-Bold";
+    text-align: center;
+}
+#contact .left, #contact .right{
+    width: 585px;
+    height: 450px;
+    float: left;
+}
+#contact .left input{
+    width: 90%;
+    height: 76px;
+    outline: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(124, 161, 127);
+    margin-top: 20px;
+    background: transparent;
+}
+#contact-text {
+     width: 100%;
+     height: 244px;
+     border-width: 1px;
+     border-style: solid;
+     border-color: rgb(124, 161, 127);
+     margin-top: 20px;
+     background: transparent;
+ }
+#contact .right input{
+    width: 180px;
+    height: 50px;
+    background: rgb(57, 59, 58);
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* contact结束  */
 
 
 

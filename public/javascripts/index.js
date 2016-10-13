@@ -19,7 +19,7 @@ $(function(){
                 clearInterval(timer);
             }
             $("body").scrollTop(scrollTop - 20);
-        }, 100);
+        }, 30);
     });
 
     var $css = $("#progress .css");
